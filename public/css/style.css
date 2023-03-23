@@ -1,0 +1,124 @@
+p{
+    font-size:15px;
+}
+nav{
+    background:rgb(28, 28, 92);
+}
+.navbar .navbar-toggler[aria-expanded="true"],
+.navbar .navbar-toggler[aria-expanded="false"]{
+    color:#fff;
+    border:1px solid rgb(155, 152, 152);
+}
+.navbar .navbar-toggler:focus{
+    color:#fff;
+}
+.navbar .navbar-toggler:hover{
+    color:rgb(155, 152, 152);
+}
+
+#loader{
+    border:12px solid #f3f3f3;
+    border-radius:50%; 
+    border-top:12px solid #444444;
+    width:5%;
+    height:8%;
+    animation:spin 1s linear infinite;
+}
+@keyframes spin{
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.center{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+}
+
+.row .foot-row{
+    width:400px;
+    box-shadow:10px 5px 12px 0 rgba(0,0,0,.4);
+    border-radius:10px;
+    margin-top:-380px;
+    z-index:5;
+    background:#fff;
+    position:relative;
+}
+.foot-row button{
+    float:center;
+    position:absolute;
+    left:40%;
+}
+.body{
+    box-shadow:1px 2px 10px white;
+}
+.alert{
+   width:100%;
+   position:absolute;
+   z-index:25;
+   transform:translateY(-500%);
+}
+
+/*blog*/
+.first-row{
+    box-shadow:10px 5px 12px 10px rgba(0,0,0,.4);
+    border-radius:5px;
+}
+.second-row p{
+    text-align:justify;
+    margin-left:6
+}
+.third-row video{
+    width:100px;
+}
+.list a{
+    color:rgb(28, 28, 92);
+}
+.arrow a{
+    color:white;
+    background:blue;
+    padding:15px;
+    border-radius:50%;
+}
+.custom-shape-divider-bottom-1641766575 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1641766575 svg {
+    position: relative;
+    display: block;
+    width: calc(254% + 1.3px);
+    height: 103px;
+}
+
+.custom-shape-divider-bottom-1641766575 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/*contact*/
+.contact{
+    box-shadow:10px 5px 12px 10px rgba(0,0,0,.4);
+    border-radius:3px;
+}
+.contact i{
+    color:blue;
+    font-size:40px;
+}
+.contact .text-center{
+    border-right:1px solid #c0c0c0;
+    margin-bottom:55px;
+}
+
+/*footer*/
+.footer i{
+    font-size:20px;
+}
