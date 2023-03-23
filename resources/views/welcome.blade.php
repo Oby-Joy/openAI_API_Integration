@@ -63,7 +63,7 @@
         $('#button-submit').on('click', function(){
             $value = $('#input').val();
             $('#content-box').append(`<div class="mb-2">
-                            <div class="float-right px-3 py-2" style="width:270px; background:#4acfee; border-radius:10px;float:right; font-size:85%;">
+                            <div class="float-right px-3 py-2" style="width:270px; background: #4acfee; border-radius:10px;float:right; font-size:85%;">
                                 `+$value+`
                             </div>
                             <div style="clear:both"></div>
